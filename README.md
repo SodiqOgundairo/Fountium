@@ -1,2 +1,1 @@
-# Fountium
-Fountium Inc Website built with ReactJS, TailwindCSS 
+Fountium Inc Website built with ReactJS, TailwindCSS
