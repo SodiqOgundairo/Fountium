@@ -5,3 +5,10 @@
 body {
     margin: 0;
 }
+
+.gif-bg {
+    background-image: url(../img/waterLoop.gif);
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+}
