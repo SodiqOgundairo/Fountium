@@ -4,11 +4,21 @@
 
 body {
     margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
 }
 
 .gif-bg {
     background-image: url(../img/waterLoop.gif);
     background-size: cover;
-    background-position: right;
+    background-position: bottom center;
     background-repeat: no-repeat;
+}
+
+.everything-bg {
+    background-image: url(../img/everything-bg.jpg);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    filter: blur(100);
 }

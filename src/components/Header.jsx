@@ -59,7 +59,7 @@ export function Header() {
                 color="blue-gray"
                 className="p-1 font-normal"
             >
-                <Link to={'/'} className="flex items-center">
+                <Link to={'/contact-us'} className="flex items-center">
                     Contact Us
                 </Link>
             </Typography>
