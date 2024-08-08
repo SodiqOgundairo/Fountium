@@ -39,7 +39,7 @@ export function Header() {
                 color="blue-gray"
                 className="p-1 font-normal"
             >
-                <Link to={'/'} className="flex items-center">
+                <Link to={'/about-us'} className="flex items-center">
                     About Us
                 </Link>
             </Typography>
@@ -67,7 +67,7 @@ export function Header() {
     );
 
     return (
-        <div className=" max-h-[768px] ">
+        <div className=" max-h-[768px] flex flex-col justify-center items-center mx-10">
             <Navbar className="fixed backdrop-blur-md top-0 z-10 bg-light/50 shadow-none h-max max-w-full rounded-none px-4 py-2 lg:px-8 lg:py-4">
                 <div className="flex items-center justify-between text-blue-gray-900">
                     <img

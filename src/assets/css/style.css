@@ -22,3 +22,11 @@ body {
     background-repeat: no-repeat;
     filter: blur(100);
 }
+
+.about {
+    background-image: url(../img/about.jpg);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    filter: blur(100);
+}

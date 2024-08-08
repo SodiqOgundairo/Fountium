@@ -5,6 +5,7 @@ import Aos from "aos";
 import { Header } from "./components/Header"
 import Footer from "./components/Footer"
 import { useEffect } from "react";
+import About from "./pages/About";
 
 
   function App() {
@@ -19,6 +20,7 @@ import { useEffect } from "react";
       <Header />
       <Routes >
         <Route path="/" element={<Home />} />
+        <Route path="/about-us" element={<About />} />
         <Route path="/contact-us" element={<Contact />} />
       </Routes>
       <Footer />

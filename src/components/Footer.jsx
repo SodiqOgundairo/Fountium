@@ -7,7 +7,7 @@ const Footer = () => {
 
     const date = new Date().getFullYear
     return (
-        <div className="flex flex-col mb-0">
+        <div className="flex flex-col mb-0" data-aos="flip-down">
             <img src={vector} alt="" />
             <div className="flex flex-col bg-dark py-16 justify-center gap-3 md:gap-10 items-center">
                 <img

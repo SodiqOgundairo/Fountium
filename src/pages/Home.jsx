@@ -19,13 +19,13 @@ const Home = () => {
       </div>
 
       <div className="flex flex-col gap-y-20 justify-center items-center mx-auto text-center py-32 bg-light">
-        <p className="text-4xl text-theme font-bold uppercase">
+        <p className="text-4xl text-theme font-bold uppercase" data-aos="fade-up-right">
           Start a new project
         </p>
 
-        <p className="text-7xl font-bold">Ready to transform your business?</p>
+        <p className="text-7xl font-bold" data-aos="flip-right">Ready to transform your business?</p>
 
-        <Link to='/contact-us' className='text-light bg-gradient-to-r from-theme via-theme to-accent hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80 font-bold rounded-lg text-lg px-20 py-5 text-center me-2 mb-2' >Contact Us</Link>
+        <Link to='/contact-us' data-aos="zoom-in-up" className='text-light bg-gradient-to-r from-theme via-theme to-accent hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80 font-bold rounded-lg text-lg px-20 py-5 text-center me-2 mb-2' >Contact Us</Link>
       </div>
 
       {/* <div className="bg-gradient-to-br to-theme from-accent mx-auto text-light  everything-bg">
